@@ -1,6 +1,6 @@
 # WITH.
 
-**A PhutureDigital project.**
+**A [Phuture Digital](https://www.phuturedigital.co.za) project.**
 
 WITH. is a South African personal safety network built around a simple principle: safety should start before the emergency.
 
