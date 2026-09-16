@@ -11,6 +11,7 @@ Research and prototype stage. WITH. is not currently an emergency service, secur
 ## Canonical documents
 
 - `docs/BRAND-GUIDE.md` — complete master brand system: name, meaning, mission, vision, positioning, slogan/tagline hierarchy, voice, messaging, visual identity, photography, typography, product language, partnerships, AI boundaries, campaigns and governance
+- `docs/INFOGRAPHIC-CONCEPT-DIRECTION.md` — concept maps, network growth visuals, Assistance Point demonstrations, coverage storytelling, diagram rules, conceptual disclaimers and the first infographic build priorities
 - `docs/WITHHELP.md` — product source of truth
 - `docs/MOBILE-BACKEND-ARCHITECTURE.md` — mobile, offline, backend and incident architecture
 - `docs/PILOT-ECONOMICS-AND-OPERATIONS.md` — pilot model, economics, validation and operating assumptions
