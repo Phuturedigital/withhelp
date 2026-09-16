@@ -1,6 +1,7 @@
 const allowedOrigins = new Set([
   'https://withhelp.co.za',
   'https://www.withhelp.co.za',
+  'https://withhelp.vercel.app',
   'https://previews.phuturedigital.co.za',
   'http://localhost:3000',
 ]);
