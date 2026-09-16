@@ -12,6 +12,18 @@ This checklist translates the canonical product, brand, UX, architecture and pil
 - [x] Full-screen `/app` preview remains available through same-tab navigation.
 - [x] Every website route includes an icon-led explanatory diagram.
 - [x] Ask WITH. interrupts immediate-danger language with existing emergency resources.
+- [x] Fragmented infrastructure and WITH. coordination are explained visually.
+- [x] Protection is shown across before, during and after stages.
+- [x] Failure paths explain how the safety chain can continue.
+- [x] Assistance Point maps are prominently labelled as illustrative.
+- [x] Network growth begins with personal value and avoids fabricated metrics.
+- [x] Organisation roles explain where employers, campuses, financial institutions, properties, retailers and responders fit.
+- [x] Business privacy distinguishes aggregate programme insight from prohibited individual surveillance.
+- [x] The organisation pilot journey explains discovery through expansion.
+- [x] MapLibre GL JS renders the map and Turf.js generates illustrative reach geometry.
+- [x] CSS and HTML handle simple nonnumeric diagrams without unnecessary dependencies.
+- [ ] Use Apache ECharts only when real or explicitly illustrative quantitative data needs charting.
+- [ ] Use XYFlow only when interaction materially improves a network explanation.
 - [ ] Add a fully accessible mobile navigation menu for all website pages.
 - [ ] Run a production accessibility audit against WCAG 2.2 AA.
 
