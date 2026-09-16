@@ -16,6 +16,7 @@ const allowedRoles = new Set([
   'Security or response provider',
   'GBV, NGO or community organisation',
   'Research, government or other',
+  'Public sector, policy or other',
 ]);
 
 function corsHeaders(origin: string | null) {
@@ -99,6 +100,9 @@ Deno.serve(async (req: Request) => {
     return json({ error: 'Service unavailable' }, 503, origin);
   }
 
+  const expiresAt = new Date();
+  expiresAt.setUTCMonth(expiresAt.getUTCMonth() + 24);
+
   const payload = {
     first_name: firstName,
     last_name: lastName,
@@ -108,6 +112,9 @@ Deno.serve(async (req: Request) => {
     role,
     message,
     consent: true,
+    consented_at: new Date().toISOString(),
+    privacy_notice_version: '2026-09-16',
+    expires_at: expiresAt.toISOString(),
     source: 'with-website',
     user_agent: clean(req.headers.get('user-agent'), 500) || null,
   };
