@@ -1,5 +1,7 @@
 # WITH.
 
+**A PhutureDigital project.**
+
 WITH. is a South African personal safety network built around a simple principle: safety should start before the emergency.
 
 This repository is the canonical home for the **website, public brand system, launch storytelling, partner surfaces and brand contract**.

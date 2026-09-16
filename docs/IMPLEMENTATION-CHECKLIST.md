@@ -24,7 +24,10 @@ This checklist translates the canonical product, brand, UX, architecture and pil
 - [x] CSS and HTML handle simple nonnumeric diagrams without unnecessary dependencies.
 - [ ] Use Apache ECharts only when real or explicitly illustrative quantitative data needs charting.
 - [ ] Use XYFlow only when interaction materially improves a network explanation.
-- [ ] Add a fully accessible mobile navigation menu for all website pages.
+- [x] Add a mobile navigation menu with 48px controls for all website pages.
+- [x] Add accessible names and autocomplete hints to launch form fields.
+- [x] Keep diagrams, app preview and long page headings contained at 320px.
+- [x] Credit WITH. as a PhutureDigital project across website and app surfaces.
 - [ ] Run a production accessibility audit against WCAG 2.2 AA.
 
 ## Cross-platform mobile app
