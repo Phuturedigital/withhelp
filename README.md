@@ -1,24 +1,25 @@
 # WITH.
 
-WITH. is a South African personal safety network concept designed around a simple principle: safety should start before the emergency.
+WITH. is a South African personal safety network built around a simple principle: safety should start before the emergency.
 
-This repository is the canonical home for the **website, public brand system, concept storytelling, partner/research surfaces and brand contract**.
+This repository is the canonical home for the **website, public brand system, launch storytelling, partner surfaces and brand contract**.
 
 The production mobile application lives separately at:
 
-https://github.com/Phuturedigital/withhelp-app
+[Phuturedigital/withhelp-app](https://github.com/Phuturedigital/withhelp-app)
 
 The repositories stay separate in code and deployment, but share one product language, visual system and trust model.
 
 ## Current status
 
-Research and prototype stage. WITH. is not currently an emergency service, security company, or substitute for SAPS, EMS, or other emergency services.
+Launch preparation. WITH. is not currently an emergency service, security company, or substitute for SAPS, EMS, or other emergency services.
 
 ## Canonical documents
 
 - `docs/BRAND-GUIDE.md` — master brand system: name, mission, vision, positioning, slogan/tagline hierarchy, voice, messaging, visual identity, photography, typography, product language, partnerships, campaigns and governance
-- `docs/INFOGRAPHIC-CONCEPT-DIRECTION.md` — concept maps, network growth visuals, Assistance Point demonstrations, coverage storytelling, diagram rules and conceptual disclaimers
+- `docs/INFOGRAPHIC-CONCEPT-DIRECTION.md` — network growth visuals, Assistance Point demonstrations, coverage storytelling and diagram rules
 - `docs/WEBSITE-OPEN-SOURCE-STACK.md` — website-specific recommendations: MapLibre GL JS, Turf, ECharts, Mermaid and XYFlow
+- `docs/OPEN-SOURCE-TOOLKIT.md` — broader GitHub projects for icons, diagrams, styling, mapping and mobile delivery
 - `docs/CROSS-REPO-DESIGN-CONTRACT.md` — rules keeping the website and mobile app visually aligned while remaining separate
 - `docs/WITHHELP.md` — product source of truth
 - `docs/MOBILE-BACKEND-ARCHITECTURE.md` — mobile, offline, backend and incident architecture reference
@@ -35,8 +36,9 @@ The mobile repository mirrors this file. The app repository contains a GitHub Ac
 
 ## Repository structure
 
-- `api/` — public website and marketing/demo routes
-- `docs/` — brand, product, concept visualization, resilience, economics, UX and architecture
+- `api/` — public website routes
+- `public/` — exported app preview used by the website
+- `docs/` — brand, product, visual storytelling, resilience, economics, UX and architecture
 - `shared/` — canonical cross-repo brand contract
 - `supabase/` — waitlist schema and Edge Function source
 - `vercel.json` — website production routing
@@ -49,21 +51,31 @@ The mobile repository mirrors this file. The app repository contains a GitHub Ac
 - `/assistance-points` — Assistance Point concept model
 - `/organisations` — employer, campus, bank, insurer, property and responder model
 - `/trust` — privacy, AI boundaries and anti-abuse principles
-- `/join` — research/waitlist intake
-- `/app` — marketing/demo mobile concept only; production app code lives in `withhelp-app`
+- `/join` — launch and partnership list
+- `/app` — interactive app preview; production source lives in `withhelp-app`
 
 ## Repository boundary
 
 This repository should own:
 
 - public brand and messaging
-- concept infographics
+- explanatory diagrams
 - illustrative network maps
 - website interaction
-- partner and pilot storytelling
-- research/waitlist intake
+- partner and launch storytelling
+- launch-list intake
 
 It should not become the production mobile codebase.
+
+## Cross-platform mobile app
+
+The installable Expo React Native app now lives in its own repository:
+
+**[Phuturedigital/withhelp-app](https://github.com/Phuturedigital/withhelp-app)**
+
+That repository owns Android, iOS and app-web-preview source. This website retains only the exported `/app` preview required for the embedded product experience.
+
+See `docs/IMPLEMENTATION-CHECKLIST.md` for the document-derived delivery checklist and the boundary between app-preview behavior and connected safety infrastructure.
 
 ## Core rule
 

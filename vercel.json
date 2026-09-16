@@ -7,9 +7,9 @@
     { "source": "/organisations", "destination": "/api/site?page=organisations" },
     { "source": "/trust", "destination": "/api/site?page=trust" },
     { "source": "/join", "destination": "/api/site?page=join" },
-    { "source": "/app", "destination": "/api/app" },
+    { "source": "/app", "destination": "/app.html" },
     { "source": "/with-safety-network", "destination": "/api/site?page=home" },
     { "source": "/with-safety-network/:page", "destination": "/api/site?page=:page" },
-    { "source": "/with-app", "destination": "/api/app" }
+    { "source": "/with-app", "destination": "/app.html" }
   ]
 }
