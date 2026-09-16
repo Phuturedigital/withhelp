@@ -55,6 +55,8 @@ The mobile repository mirrors this file. The app repository contains a GitHub Ac
 - `/trust` — privacy, AI boundaries and anti-abuse principles
 - `/join` — launch and partnership list
 - `/app` — interactive app preview; production source lives in `withhelp-app`
+- `/privacy` — POPIA privacy notice and data-subject request pathway
+- `/terms` — website and app-preview terms
 
 ## Repository boundary
 
